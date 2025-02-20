@@ -1,0 +1,36 @@
+modulestats] Wrapper already loaded
+[train27@NucleusA091 ~]$ module load python/latest-3.12x-anaconda
+ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'python/latest-3.12x-anaconda'
+[train27@NucleusA091 ~]$ module load python/latest-3.12x-anaconda
+ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'python/latest-3.12x-anaconda'
+[train27@NucleusA091 ~]$ module load python/latest-3.12.x-anaconda
+[train27@NucleusA091 ~]$ conda env list
+# conda environments:
+#
+base                     /cm/shared/apps/python/3.12.x-mamba
+cublas                   /cm/shared/apps/python/3.12.x-mamba/envs/cublas
+                         /project/nanocourse/SCGenomics/train27/nanocourse-trajectory
+                         /project/nanocourse/SCGenomics/train27/rspatial_env
+                         /project/nanocourse/SCGenomics/train27/sc_nanocourse_feb20_morning
+
+[train27@NucleusA091 ~]$ conda activate /project/nanocourse/SCGenomics/train27/sc_nanocourse_feb20_morning/(/project/nanocourse/SCGenomics/train27/sc_nanocourse_feb20_morning/)[train27@Nucleus084~]$rstudio
+bash: syntax error near unexpected token `('
+[train27@NucleusA091 ~]$ ^C
+[train27@NucleusA091 ~]$ conda activate /project/nanocourse/SCGenomics/train27/sc_nanocourse_feb20_morning/(/project/nanocourse/SCGenomics/train27/sc_nanocourse_feb20_morning/)[train27@NucleusA091 ~]$rstudio
+bash: syntax error near unexpected token `('
+[train27@NucleusA091 ~]$ conda activate /project/nanocourse/SCGenomics/train27/sc_nanocourse_feb20_morning
+(/project/nanocourse/SCGenomics/train27/sc_nanocourse_feb20_morning) [train27@NucleusA091 ~]$ rstudio
+TTY detected. Printing informational message about logging configuration. Logging configuration loaded from '/etc/rstudio/logging.conf'. Logging to '/tmp/train27/rstudio/log/rdesktop.log'.
+QStandardPaths: wrong permissions on runtime directory /tmp/train27-WEBGPU, 0755 instead of 0700
+QStandardPaths: wrong permissions on runtime directory /tmp/train27-WEBGPU, 0755 instead of 0700
+Qt: Session management error: None of the authentication protocols specified are supported
+Xlib: sequence lost (0x101ad > 0x1af) in reply type 0x0!
+Xlib: sequence lost (0x101b4 > 0x1b6) in reply type 0x0!
+Xlib: sequence lost (0x101bb > 0x1bd) in reply type 0x0!
+Xlib: sequence lost (0x101d0 > 0x1d2) in reply type 0x0!
+Xlib: sequence lost (0x101d7 > 0x1d9) in reply type 0x0!
+Xlib: sequence lost (0x101de > 0x1e0) in reply type 0x0!
+[36057:7:0220/095320.517800:ERROR:command_buffer_proxy_impl.cc(141)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+Xlib: sequence lost (0x1029e > 0x2a0) in reply type 0x0!
+Xlib: sequence lost (0x102a5 > 0x2a7) in reply type 0x0!
+Xlib: sequence lost (0x102ac > 0x2ae) in reply type 0x0!
